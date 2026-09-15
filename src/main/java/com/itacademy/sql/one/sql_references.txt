@@ -1,0 +1,39 @@
+Postoje dvije vrste NoSQl - nestrukturirane baze
+                    SQL - strukturirane
+
+ Dvije bitne vrste komanda :
+ DDL - Data Definition Language
+    CREATE schema shop; - kreiranje nove baze podataka
+    CREATE tabele orders.....kolove/ipove
+
+    znaci ovo DDl komande su komande putem kojih mi kreiramo bazu
+    Ekvivalnet tabeli u MySQL bazi je klasa
+    Tabela je - struktura koja definira pravila cuvanja podataka - ovo je definicija
+    id, name, surname - ovo su vec podatci
+    1 Kristijan Birkic -- vazan je tip podatka
+
+Klasa je struktura ili definicija koja definira nacin na koji kreiramo objekte/instance
+Pa je jedan red u tabeli ekvivalentan jednom objektu
+
+Person person = new Person();
+person.id = 1
+person.name = "Kristijan"
+person..surname = "Birkic"
+
+Evivalent tabela = 1 klasa
+Ekvivalent red =  1 objekat
+
+ DML - komanda za kreiranje jednog objekat je new u Javi
+     - INSERT umetanje jednog reda = new Person()
+     - promjena vrijednosti UPDATE = setter
+     - SELECT = getter
+      DELETE GC obrise objekat
+
+
+ Java aplikacija ce se kaciti sa bazom podataka
+ JDBC API specifikacija
+ Pravimo upite preko RDBMS
+ SQL upiti su DDL i DML komande
+
+ Klasa koju vezete za neku tabelu da bude Java Bean, a to znaci da implementira Serializable
+ da ima getter i setter i konstruktor bez parametara

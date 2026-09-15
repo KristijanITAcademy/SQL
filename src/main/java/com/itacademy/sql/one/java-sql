@@ -1,0 +1,22 @@
+Od Jave upit prema SQL
+
+Prvo smo napravili ovo:
+
+SELECT * FROM persons;
+Execute -> SQL RDBMS evaluiran
+ResultSet -> ResultGrid
+
+sad radimo obratno :
+pravimo upit iz Java aplikacije
+
+Java Application - SELECT * FROM persons;
+Execute -> SQL RDBMS evaluirati SQL upit
+Java Application : ResultSet -> Console .....
+
+ Kad imam ovo dole mogu ici na ovo iznad
+
+Java App - znati s kojom bazom ostvaruje konekciju MySql, Postgres .....
+Moramo dodati driver ili biblioteku koju ce implementirati:
+    Connection interfejs
+    PreparedStatment
+    ResultSet

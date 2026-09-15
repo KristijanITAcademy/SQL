@@ -1,0 +1,32 @@
+DDL
+
+Primary key - jedinstvena - clustered index
+Unique key - radi istu stvar razlika je u indeksu
+Create table
+Create schema - ove dvije pripadju DDL, kreiraju definiciju
+
+DML
+    SELECT, INSERT
+SELECT * FROM persons;
+
+INSERT INTO persons (first_name, last_name, nin,birthday)
+VALUES("Ime", "Prezime", "4354366", "2026-03-23")
+
+- kod inserta sporije je kad imamo
+indekse ali kad imamo select brze je kad imamo indekse
+
+BATCH insert - vise redova odjednom
+
+Kreirali smo bazu/schema podataka : shop
+localhost
+127.0.0.1 IPv4
+
+localhost : poert 3306
+
+Java App -> localhost -> OS prevest u 127.0.0.1 TCP/IP
+MySQL Server na istom racnunalu - koristi za povezivanje Jave i baze
+
+Sve aplikacije na racunalu su na localhost ali samo je SQL na portu 3306, to ga identifikuje
+Execute - > SQL RDBMS evaluiran
+
+
