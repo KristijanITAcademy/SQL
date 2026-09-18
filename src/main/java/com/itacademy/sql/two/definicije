@@ -1,0 +1,35 @@
+SQL - Structured Query language
+
+MySQL 1
+    - uvod u baze
+    - instalacija i pokretanje servera
+    - koristenje MySQL CLI
+    - MySQL Workbench
+
+MySQL 2
+    - tipovi podataka
+    - koncept PK FK
+    - SQL sintaksa
+    -Tipovi SQL naredbi
+
+SQL 3
+    - DDl naredbe za definiciju - kreiramo bazu
+    - SELECT - osnovna grupa za pretragu baze podataka
+
+ Crtice -
+    - case insensitive
+    - ; ako je vise od jednog reda, ako nije onda nije potreban
+    - prima za stringove i jednostruke i dvostruke navodnike
+
+
+    DDL -Data Definition Language
+        tabele, relacije, indeksi
+
+    DML - Data Manipulation Language
+
+    DCL - Data Control Language
+
+    Upit se salje RDBMS ne direktnoj bazi !!!
+
+  Zasto koristimo InnoDB, zato sto podrzava koncept indeksiranja podataka.
+

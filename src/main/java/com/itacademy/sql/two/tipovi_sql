@@ -1,0 +1,54 @@
+Tipovi podataka
+
+VARCHAR(50)
+    name, address, city, phone
+    "Stefan"
+    Hoce li varchar uzeti prostor od 50 charactera ili samo za 6?
+    Ovdje ce uzeti samo 6
+    varijabilan
+
+ CHAR (2) -> uvijek zazuima 2
+            - MySQL interpolira
+ state
+ "B"
+ "BA"
+
+ Hoce li CHAR uzeto prostor za 1 karakter ili 2 ?
+
+ Razlika - > varchar koristimo kad znamo da ce tekst biti razlicite duljine, a char kada zelimo fiksno
+
+Primary key - indeksiran clustered
+    - utjecu na fizicki redoslijed redova u tabeli
+    - mozete imati samo 1 clustered index
+    - not null
+Foreign key - indeksiran non-clustered
+ - moze ih biti vise
+ -
+
+INDEX
+    -> InnoDB engine
+    -  poenta indeksa i InnoDB engina je da ubrzavaju pretragu !!
+
+  SUMMRY
+   PK -> jedinstveno identificira red u tabeli
+   Fk -> da poveze tabele
+   CLUSTERED index -> odreduju fizicki redoslijed podataka/redova u tabeli
+   NON-CLUSTERED -> dodatna struktura za brzu pretragu
+
+
+Constraints - ogranicenja
+Restrict, Cascade - zabrani ..
+PK I FK,, nekako moraju biti povezani, upravo je FK ta veza
+    - pokazuje uvijek na neciji primary key
+    - uvijek se referencira na PK - cuva referencu, skladistimo referencu
+    -
+    relacijske baze podataka, table su povezane relacijama, i to je moguce zbog InnoDB
+
+
+
+View - > virtualni prostor u kojem mozemo kombinirati podatake iz vise tabela i staviti ih u pogled
+na podatke --- view on data -- mocan alat za kreiranje izvjestaja
+
+Store procedures - > dohvatimo podatke, da ne pisemo 100 puta jednu naredbu, ovako je spremimo
+u procedures i kad god nam zatreba taj izlist samo ga pozovemo
+

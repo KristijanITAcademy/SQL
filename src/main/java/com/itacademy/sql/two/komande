@@ -1,0 +1,46 @@
+Tri vrste bitno !!!
+
+
+
+DDL - CREATE, ALTER, DROP
+- kreirati strukturu baze
+DML - SELECT, INSERT, UPDATE, DELETE
+DCL - GRANT, REVOKE
+
+Kako da doda novog usera koji nije root ?
+    MySQL Workbench
+        Tab Administration :
+            useres privileges
+             Add account
+                username
+                password
+                Limit to host matching : %
+                % - mozes pristupiti sa svakog racunara u mrezi
+                localhost - mozes pristupiti mojoj bazi samo sa racunara
+                na kojem se nalazi ta baza
+
+        -> account bez privileges nista ne znaci
+
+    MySQL CLI ->
+     isto je uradio kao i workbench
+
+Storage engine je mehanizam skladistenja podataka u tabelu
+Storage Engine : InnoDB
+                    - transakcije, sistem PK, FK, indekse
+                    - zakljuca red u tabeli kad se nad njim radi neka operacija
+                    - ima taj transaction menager, rollback ili update
+                 MyISAM
+                    - nekad se koristio
+                    - zakljuca cijelu tabelu
+                    - ne podrzava indekse
+CHARSET - koje znakove mozemo pohraniti, sto tabela prima
+        utf8mb4 - kompletan unicode, sve + emoji ..
+        ABC slova sa kvacicama
+COLLATE - definira neka pravila kako se skladisteni znakovi porede i sortiraju, tabela..
+    - kaze da li je A prije B,
+    - da li je A veliko ili malo
+
+
+
+
+

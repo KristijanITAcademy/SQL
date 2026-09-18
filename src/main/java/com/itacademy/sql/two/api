@@ -1,0 +1,10 @@
+Programing API -
+ biblioteka koja implementira JDBC API
+ JAR Java Archive
+ klase koje implementiraju interfejse
+
+ MySQL ima svoj driver, Postgres ima svoj itd,,
+ Ako mislite da ja Java komuniciram sa vama ja vam nudim API skup pravila, interfejsa
+ koje morate implementirati da bi ostvarili konekciju
+
+ REST web servis i SOAP API jos
