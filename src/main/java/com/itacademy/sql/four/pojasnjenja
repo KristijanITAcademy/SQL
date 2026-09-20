@@ -1,0 +1,19 @@
+SQL query
+    -> mi kad saljemo upit saljemo ga RDBMS
+     - a ona - > R DB
+     < - result set
+     < - MySQL ga prikazuje
+
+  Jako je bitan redoslijed!
+
+The LIKE operator
+    - > 'brush%' -> starts with
+    -> '%b' -> ends with
+    -> '%h%' - > contains
+
+REGEXP
+ - regularni izrazi - nesto sto nije svojsteno samo za sql
+ - cemu sluze ?
+    -> obicno kad imamo neki tekst i zelimo vidjeti neki pattern, testiraju neki obrazac ponasanja
+    u tesktu
+
