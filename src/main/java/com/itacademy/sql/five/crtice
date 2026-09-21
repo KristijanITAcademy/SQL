@@ -1,0 +1,20 @@
+- soritirati mozete i po kolonama koje nisu su select statement
+
+SELECT first_name, last_name
+FROM customers
+ORDER BY birth_date;
+
+ASC - > uzlazno
+DESC - > opadajuce
+
+defaultni je izraz ako en naglasimo ASC, radi se po primary key, tj po clustered index
+sa storage engine InnoDB, jer on podrzava PK, FK
+
+Ako se stavi JOIN podrazumijeva se INNER
+-- rezultat dvije tabele je presjek skupova
+-- ako se stavi JOIN podrazumijevan je INNER
+-- rez su podatci koji se poklapaju u obje tabele
+-- postoji smo inner i outer join
+-- left i right join ovise od perspektive posmatranja
+-- cieli lijevi krug + preklapanje - LEFT JOIN
+-- cijeli desni krug + preklapanje = RIGHT JOIN
