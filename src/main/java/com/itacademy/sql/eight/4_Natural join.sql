@@ -1,0 +1,2 @@
+-- Natural join - puno jednostavnijji ali se ne preporucuje
+-- neocekivan rezultat

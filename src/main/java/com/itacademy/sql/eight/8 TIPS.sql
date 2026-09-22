@@ -1,0 +1,3 @@
+-- INSERT, UPDATE, DELETE 
+-- varchar - priblizno ili tocnu duzinu
+-- text - sadrzaj dug i nepredvidiv, opis nekakav itd 
